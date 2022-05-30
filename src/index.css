@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  width: 40%;
+  border: 1px solid grey;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  width: 20%;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  background: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  background-color: rgba(0 0 0/85%);
+  color: white;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.input {
+  width: 50%;
+  padding: 0.2rem 0.4rem;
+  font-family: poppins, sans-serif;
+  outline: none;
+  margin-top: 1rem;
+}
+
+.container {
+  padding: 3rem;
+}
+
+.tasks {
+  margin-top: 1rem;
+}
+
+.task {
+  border: 1px solid grey;
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.6rem;
+  background-color: lightgrey;
+}
+
+.delete-button {
+  padding: 0.3rem;
+  background-color: rgba(0 0 0/85%);
+  color: white;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: grey;
+}
+
+.clear {
+  width: 50%;
+  text-align: center;
+}
